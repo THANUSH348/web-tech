@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Technology Experiment-3</title>
+<link rel="stylesheet" href="web tech3.css"></link>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/6.1.1/css/all.min.css"></link>
+
+</head>
+
+<body>
+<div class="header" width="50px" height="50px">Showroom</div>
+<div class="menu-bar">
+<ul>
+<li class="active"><a href="#"><i class="fa fa-home"></i>Home</a>
+</li>
+<li class="hover-me"><a href="#"><i class="fa fa-user"></i>About</a></li>
+<li><a href="#"><i class="fa fa-clone"></i>Services</a></li>
+<li><a href="#"><i class="fa fa-users"></i>Clients</a></li>
+<li><a href="#"><i class="fa fa-edit"></i>Training</a></li>
+<li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+
+20CS2056L – Web Technology B5 URK20CS2105
+
+</ul>
+</div>
+</div>
+<video style="margin-left:69%;margin-top:2%" width="420" height="240" controls>
+<source src="lamborghini.mp4" type="video/mp4">
+</video>
+<div class="form" style="margin-left: 10%;margin-top:-20%;">
+<h2>sign up</h2>
+<input type="name" name="name" placeholder="Username"><br><br>
+<input type="password" name="" placeholder="password"><br><br>
+<button class="btnn"><a href="C:\Users\Thanush\Documents\web
+project\login.png">Register</a></button>
+</div>
+<p style="color: white;margin-left:7%;margin-top:4%;">Automobili Lamborghini S.p.A. (Italian
+pronunciation: [autoˈmɔːbili lamborˈɡiːni])
+is an Italian brand and manufacturer<br>of luxury sports cars and SUVs based in Sant'
+Agata Bolognese. The company is owned by the Volkswagen Group through<br>its subsidiary
+Audi.
+Ferruccio Lamborghini (1916–1993), an Italian manufacturing magnate, founded Automobili
+Ferruccio<br>Lamborghini S.p.A. in 1963 to compete with Ferrari. The company was noted for
+using
+a rear mid-engine, rear-wheel drive<br>layout. Lamborghini grew rapidly during its first decade,
+but sales plunged in the wake of the 1973 worldwide financial<br>downturn and the oil crisis.
+The firm's ownership changed three times after 1973, including a bankruptcy in 1978.
+American<br>
+Chrysler Corporation took control of Lamborghini in 1987 and sold it to Malaysian investment
+group Mycom Setdco and<br>Indonesian group V'Power Corporation in 1994. In 1998, Mycom
+Setdco and
+V'Power sold Lamborghini to the Volkswagen<br>Group where it was placed under the control
+of the
+group's Audi division.
+</p>
+<audio style="margin-left:7%;margin-top:17" controls>
+<source src="7G Rainbow Colony Movie Songs _ Kanpesum Vaarthaig(MP3_160K).mp3"
+
+type="audio/ogg">
+
+<source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<footer class="footer" style="margin-top: 10%">
+<i class="fa-brands fa-facebook-f">&nbsp;&nbsp;</i>
+<i class="fa-brands fa-twitter">&nbsp;&nbsp;</i>
+<i class="fa-brands fa-instagram">&nbsp;&nbsp;</i>
+<i class="fa-brands fa-google-plus-g">&nbsp;&nbsp;</i><br>
+<p>2/7 Annanagar road, near muthucomplex,chennai</p>
+<p type="email">Mail Id: lambo@gmail.com</p>
+<p type="number">phone Number: 9893948349</p>
+<p class="map" style="margin-left:55%;margin-top:-11%"><iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1990621.0404251767!2d75.48
+98837!3d12.976218999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae
+1ecd0b7525e7%3A0xe39817a990d9701f!2sLamborghini%20Bengaluru!5e0!3m2!1sen!2sin!4v1
+659265263223!5m2!1sen!2sin" width="250" height="120" style="border:0;" allowfullscreen=""
+loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</footer>
+</body>
+
+</html>
+
+CSS PROGRAM:
+
+.header{
+background: #7c7c79;
+text-align: center;
+text-shadow:3px 3px 6px hsl(56, 83%, 56%);
+font-size: 30px;
+font-family:Arial, Helvetica, sans-serif;;
+font-weight: 900;
+height: 50px;
+width: 100%;
+padding: 25px;
+}
+body{
+
+background-image:url(2.jpg);
+background-size: cover;
+background-position: center;
+}
+.menu-bar{
+background: hsl(76, 26%, 63%);
+text-align: center;
+}
+.menu-bar ul{
+display: inline-flex;
+list-style: none;
+color: rgb(12, 6, 6);
+}
+.menu-bar li {
+width: 130px;
+margin: 10px;
+padding: 5px;
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color:rgb(12, 11, 11)
+}
+.active,.menu-bar ul li:hover
+{
+background: rgba(146, 56, 15, 0.589);
+border-radius:4px;
+}
+.menu-bar .fa
+{
+margin-right: 8px;
+}
+.form{
+background:linear-gradient(yellow)
+}
+.footer
+{
+text-align: center;
+padding: 25px;
+background-color:black;
+color: rgb(255, 255, 255);
+}
+.fa-brands.fa-facebook-f,.fa-twitter,.fa-instagram,.fa-google-plus-g
+{
+font-size: 25px;
+}
