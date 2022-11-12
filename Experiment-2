@@ -1,0 +1,368 @@
+WEBPAGE:
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Technology Experiment-2</title>
+<link rel="stylesheet"
+
+href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/6.1.1/css/all.min.css"></link>
+
+</head>
+<style>
+.header{
+background: #575755;
+text-align: center;
+text-shadow:3px 3px 6px hsl(56, 83%, 56%);
+font-size: 30px;
+font-family:Arial, Helvetica, sans-serif;;
+font-weight: 900;
+height: 50px;
+width: 100%;
+padding: 25px;
+}
+body{
+background-image:url(lam.jpg);
+background-size: cover;
+background-position: center;
+}
+.menu-bar{
+background: hsl(0, 8%, 79%);
+text-align: center;
+}
+.menu-bar ul{
+display: inline-flex;
+list-style: none;
+color: rgb(12, 6, 6);
+}
+.menu-bar li {
+width: 130px;
+margin: 10px;
+padding: 5px;
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color:rgb(12, 11, 11)
+
+}
+.active,.menu-bar ul li:hover
+{
+background: rgba(236, 215, 27, 0.589);
+border-radius:4px;
+}
+.menu-bar .fa
+{
+margin-right: 8px;
+}
+.form{
+background:linear-gradient(yellow)
+}
+.footer
+{
+text-align: center;
+padding: 25px;
+background-color:black;
+color: rgb(255, 255, 255);
+}
+.fa-brands.fa-facebook-f,.fa-twitter,.fa-instagram,.fa-google-plus-g
+{
+font-size: 25px;
+}
+</style>
+<body>
+<div class="header"><img src="Lamborghini_Logo.svg.png" width="50px"
+height="50px">Lamborghini showroom</div>
+<div class="menu-bar">
+<ul>
+
+<li class="active"><a href="#"><i class="fa fa-
+home"></i>Home</a>
+
+</li>
+
+<li class="hover-me"><a href="#"><i class="fa fa-
+user"></i>About</a></li>
+
+<li><a href="#"><i class="fa fa-clone"></i>Services</a></li>
+<li><a href="#"><i class="fa fa-users"></i>Clients</a></li>
+<li><a href="#"><i class="fa fa-edit"></i>Training</a></li>
+<li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+</ul>
+</div>
+</div>
+<video style="margin-left:69%;margin-top:2%" width="420" height="240"
+controls>
+
+<source src="lamborghini.mp4" type="video/mp4">
+
+</video>
+<div class="form" style="margin-left: 10%;margin-top:-20%;">
+<h2>sign up</h2>
+<input type="name" name="name" placeholder="Username"><br><br>
+<input type="password" name="" placeholder="password"><br><br>
+<button class="btnn"><a href="C:\Users\Thanush\Documents\web
+
+project\login.png">Register</a></button>
+</div>
+<p style="color: white;margin-left:7%;margin-top:4%;">Automobili
+Lamborghini S.p.A. (Italian pronunciation: [autoˈmɔːbili lamborˈɡiːni])
+is an Italian brand and manufacturer<br>of luxury sports cars and
+
+SUVs based in Sant'
+
+Agata Bolognese. The company is owned by the Volkswagen Group
+
+through<br>its subsidiary Audi.
+
+Ferruccio Lamborghini (1916–1993), an Italian manufacturing
+
+magnate, founded Automobili
+
+Ferruccio<br>Lamborghini S.p.A. in 1963 to compete with Ferrari.
+
+The company was noted for using
+
+a rear mid-engine, rear-wheel drive<br>layout. Lamborghini grew
+
+rapidly during its first decade,
+
+but sales plunged in the wake of the 1973 worldwide
+
+financial<br>downturn and the oil crisis.
+
+The firm's ownership changed three times after 1973, including a
+
+bankruptcy in 1978. American<br>
+
+Chrysler Corporation took control of Lamborghini in 1987 and sold
+
+it to Malaysian investment
+
+group Mycom Setdco and<br>Indonesian group V'Power Corporation in
+
+1994. In 1998, Mycom Setdco and
+
+V'Power sold Lamborghini to the Volkswagen<br>Group where it was
+
+placed under the control of the
+group's Audi division.
+</p>
+<audio style="margin-left:7%;margin-top:17" controls>
+<source src="7G Rainbow Colony Movie Songs _ Kanpesum
+
+Vaarthaig(MP3_160K).mp3" type="audio/ogg">
+
+<source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<footer class="footer" style="margin-top: 10%">
+<i class="fa-brands fa-facebook-f">&nbsp;&nbsp;</i>
+<i class="fa-brands fa-twitter">&nbsp;&nbsp;</i>
+<i class="fa-brands fa-instagram">&nbsp;&nbsp;</i>
+<i class="fa-brands fa-google-plus-g">&nbsp;&nbsp;</i><br>
+<p>2/7 Annanagar road, near muthucomplex,chennai</p>
+<p type="email">Mail Id: lambo@gmail.com</p>
+<p type="number">phone Number: 9893948349</p>
+
+<p class="map" style="margin-left:55%;margin-top:-11%"><iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1990621.0404251767!
+2d75.4898837!3d12.976218999999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!
+1m2!1s0x3bae1ecd0b7525e7%3A0xe39817a990d9701f!2sLamborghini%20Bengaluru!5e0!3m
+2!1sen!2sin!4v1659265263223!5m2!1sen!2sin" width="250" height="120"
+
+style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-
+referrer-when-downgrade"></iframe>
+
+</footer>
+</body>
+
+</html>
+
+Form:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport"content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body bgcolor=lightpink>
+<h1 align="center">Resume Form</h1>
+<form style="text-align: justify;">
+<fieldset>
+<legend align="center">Personal details</legend>
+<p align="left">
+<label for="fname">First Name:</label>
+<input type="text"id="fname">
+</p>
+<p align="left">
+<label for="mname">Middle Name:</label>
+<input type="text"id="mname">
+</p>
+<p align="left">
+<label for="lname">Last Name:</label>
+<input type="text"id="lname">
+</p>
+<p align="left">
+<label for="dob">Date of Birth:</label>
+<input type="date"id="dob">
+</p>
+
+<p align="left">
+<label for="age">Age in Years:</label>
+<input type="number"id="age"placeholder="<30&>18">
+</p>
+<p align="left">
+Gender:<input type="radio"id="male"name="gender">
+<label for="male">Male</label>
+<input type="radio"id="female"name="gender">
+<label for="female">Female</label>
+</p>
+</fieldset>
+<fieldset>
+<legend align="center">Address details</legend>
+<address align="left">
+<label for="Address">Address:</label>
+<input type="Address"id="message">
+</address>
+<p align="left">
+<label for="city">City/Town:</label>
+<input type="text"id="city">
+</p>
+<p align="left">
+<label for="state">State:</label>
+<input type="text"id="state">
+</p>
+<p align="left">
+<label for="Zip code">Date of Birth:</label>
+<input type="number"id="Zip code">
+</p>
+</fieldset>
+<fieldset>
+<legend align="Center">Contact information</legend>
+<p align="left">
+<label for="Telephone">Telephone:</label>
+<input type="tel"id="Phone">
+</p>
+<p align="left">
+<label for="Phone">Mobile:</label>
+<input type="tel"id="phone">
+</p>
+<p align="left">
+<label for="Email">Email:</label>
+<input type="email"id="email">
+</p>
+<p align="left">
+<label for="website">website:</label>
+<input type="url"id="website">
+</p>
+
+</fieldset>
+<fieldset>
+<legend align="center">Educational Details</legend>
+<table border="3"align="center">
+<tr bgcolor="#cccccc">
+<th>Qualification</th>
+<th>Board/University</th>
+<th>Country</th>
+<th>Starting Years</th>
+<th>Ending Year</th>
+<th>Percentage</th>
+</tr>
+<tr>
+<td><input type="checkbox">10th</td>
+<td><input type="text"placeholder="Borad/University"></td>
+<td>
+<select name="country"id="country">
+<option value="choose">Choose</option>
+<option value="India">India</option>
+<option value="England">England</option>
+<option value="South Africa">South Africa</option>
+<option value="Australia">Australia</option>
+</select>
+</td>
+<td><input type="date"></td>
+<td><input type="date"></td>
+<td><input type="number"placeholder="70"></td>
+</tr>
+<tr bgcolor="#ececec">
+<td bgcolor="#ececec"><input type="checkbox">12th</td>
+<td bgcolor="#ececec"><input
+type="text"placeholder="Borad/University"></td>
+
+<td bgcolor="#ececec">
+<select name="country"id="country">
+<option value="choose">Choose</option>
+<option value="India">India</option>
+<option value="England">England</option>
+<option value="South Africa">South Africa</option>
+<option value="Australia">Australia</option>
+</select>
+</td>
+<td bgcolor="#ececec"><input type="date"></td>
+<td bgcolor="#ececec"><input type="date"></td>
+<td bgcolor="#ececec"><input
+
+type="number"placeholder="70"></td>
+
+</tr>
+<tr>
+
+<td><input type="checkbox">B.Tech</td>
+<td><input type="text"placeholder="Borad/University"></td>
+<td>
+<select name="country"id="country">
+<option value="choose">Choose</option>
+<option value="India">India</option>
+<option value="England">England</option>
+<option value="South Africa">South Africa</option>
+<option value="Australia">Australia</option>
+</select>
+</td>
+<td><input type="date"></td>
+<td><input type="date"></td>
+<td><input type="number"placeholder="70"></td>
+</tr>
+<tr>
+<td bgcolor="#ececec"><input type="checkbox">M.Tech</td>
+<td bgcolor="#ececec"><input
+type="text"placeholder="Borad/University"></td>
+
+<td bgcolor="#ececec">
+<select name="country"id="country">
+<option value="choose">Choose</option>
+<option value="India">India</option>
+<option value="England">England</option>
+<option value="South Africa">South Africa</option>
+<option value="Australia">Australia</option>
+</select>
+</td>
+<td bgcolor="#ececec"><input type="date"></td>
+<td bgcolor="#ececec"><input type="date"></td>
+<td bgcolor="#ececec"><input
+
+type="number"placeholder="70"></td>
+
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<p align="center">Attach your Resume in .doc or .pdf format:<input
+
+type="file"name="resume"></p>
+
+<p align="center"><input type="checkbox">I fill all the
+
+details</p>
+</fieldset>
+<p align="center">
+<input type="submit"name="send details">
+</p>
+</form>
+</body>
+
+</html>
