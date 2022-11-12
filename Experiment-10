@@ -1,0 +1,92 @@
+HTML CODE:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Home Page</title>
+</head>
+<style>
+body {
+
+background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-
+1631677.jpeg?auto=compress&cs=tinysrgb&w=6000');
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+</style>
+<body>
+
+<h1 style="color: teal;">Megaplay 2023 Registration Form!</h1>
+<br>
+<form action="/form" method="post">
+Name:<br><input type="text" name="name"><br><br> Regno:
+<br><input type="text" name="regno"><br><br> Year of Study:<br><input type="text"
+name="yr"><br><br> Department:
+<br>
+<Select name="dept">
+<option>CSE</option>
+<option>ECE</option>
+<option>MECH</option>
+<option>CIVIL</option>
+<option>AGRI</option>
+<option>FOOD PRO</option>
+</Select><br><br> School: <br>
+<Select name="school">
+<option>Engineering</option>
+<option>Managment</option>
+<option>Media</option>
+<option>Science and Humanity</option>
+<option>Agriculture</option>
+</Select><br><br> Participating Event:<br>
+<input type="checkbox" name="event" value="Musician">Musician
+<input type="checkbox" name="event" value="Singing">Singing
+<input type="checkbox" name="event" value="Choreography">Choreography
+<input type="checkbox" name="event" value="Backstage">Backstage
+<input type="checkbox" name="event" value="Finance">Finance
+<input type="checkbox" name="event" value="Purchase">Purchase
+<input type="checkbox" name="event" value="Volunteer">Volunteer
+<br><br>
+<button type="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
+
+NodeJS Code:
+
+var http = require('http');
+const fs = require('fs');
+const server = http.createServer(function(req, res)
+{if (req.url === '/') {
+res.writeHead(200, { "Content-Type": "text/html" });
+fs.createReadStream('Expt10.html').pipe(res);
+} else if (req.url === '/form' && req.method == 'POST')
+{var rawData = '';
+req.on('data', function(data)
+{rawData += data;
+})
+req.on('end', function() {
+var inputdata = new URLSearchParams(rawData);
+
+}
+});
+res.writeHead(200, { "Content-Type": "text/html" });
+res.write("<h3>")
+res.write('You have enterted--> <br>');
+res.write('Name: ' + inputdata.get('name') + '<br>');
+res.write('Register No. : ' + inputdata.get('regno') + '<br>');
+res.write('Year: ' + inputdata.get('yr') + '<br>');
+res.write('Department: ' + inputdata.get('dept') + '<br>');
+res.write('School: ' + inputdata.get('school') + '<br>');
+res.write('Participating in: ' + inputdata.get('event') + '<br>');
+res.write("</h3>")
+res.end();
+});
+
+server.listen(3002, function()
+{ console.log('listening at
+3002')
+});
